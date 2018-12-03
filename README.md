@@ -1,2 +1,2 @@
 # Welcome
-This repository consists of projects on HTML, Javascript, ReactJS, Redux.
+This repository consists of projects on HTML, Javascript, ReactJS, Redux
