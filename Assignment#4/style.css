@@ -1,0 +1,44 @@
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+input {    
+    width: 80%;
+}
+
+button {
+	width: 100px;
+	justify-content: center;
+}
+
+p {
+	font-size: 12px;
+	margin-left: -4px;
+	margin-right: -4px;
+}
+
+.data1 {
+	font-size: 30px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 250px auto 250px auto 250px auto;
+/*	grid-template-columns: repeat(auto, 200px);*/
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: #AED6F1;
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	height: 400px;
+}
+
+
+

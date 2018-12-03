@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	body {
+		background-color: #00ffff
+	}
+	fieldset {
+		text-align: left;
+		margin: auto;
+    	width: 50%;
+    	border: 3px solid green;
+    	padding: 10px;
+	}
+	legend {
+		text-align: center
+	}
+</style>
+
+<head>
+	<title>Application form</title>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Application Form</legend>
+	<form>
+		<label>
+			Name:
+			<input type="text" name="name" placeholder="type here" id="form-name"  />
+		</label><br><br>
+		
+		<!-- <label>
+			Surname:
+			<input type="text" name="surname" placeholder="type here" required />
+		</label><br><br> -->
+		<!-- <label>
+			Second name (if existed):
+			<input type="text" name="Second name" placeholder="type here" />
+		</label><br><br> -->
+		<!-- <label>
+			Phone number:
+			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+		</label><br><br> -->
+		<label>
+			Enter your email:
+			<input type="text" name="email" placeholder="type here" id="form-email"  />
+		</label><br><br>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="type here" id="form-password"  />
+		</label><br><br>
+		<label>
+			Confirm password:
+			<input type="password" name="password" placeholder="type here" id="form-password-confirm"  />
+		</label><br><br>
+		<!-- <p>Choose your specialization:</p>
+		<select name="specialization"><option value="IS">Information Systems</option><option value="Finance">Finance</option><option value="Marketing">Marketing</option></select>
+		<p>Choose your gender:</p>
+		<input type="radio" name="gender" value="mail">Mail</input>
+		<input type="radio" name="gender" value="femail">Femail</input>
+		<br><br>
+		<input type="checkbox" name="agree" value="agree">I agree with terms of conditions</input>
+		<input type="checkbox" name="agree" value="agree">I don't agree with terms of conditions</input><br><br> -->
+		<input type="submit" value="Submit" name="" id="form-button-submit">
+	</form>
+	<div id="form-name-error"></div>
+	<div id="form-email-error"></div>
+	<div id="form-password-error"></div>
+	<div id="form-passwords-error"></div>
+	<div id="form-complete-error"></div>
+	</fieldset>
+
+
+
+</body>
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>
+	
+

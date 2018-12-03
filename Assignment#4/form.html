@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="grid-container">
+		<div class="grid-item">
+			<fieldset>
+				<legend>Sign in</legend>
+				<form>
+					<label>
+						<input type="text" placeholder="Username" id="userName">
+						<p id="userName-error"></p>
+					</label>
+					<label>
+						<input type="text" placeholder="Email" id="email">
+						<p id="email-error"></p>
+						<p id="email-error-2"></p>
+					</label>
+					<label>
+						<input type="password" placeholder="Password" id="password">
+						<p id="password-error"></p>
+					</label>
+					<label>
+						<input type="password" placeholder="Confirm password" id="passwordConfirm">
+						<p id="passwordConfirm-error"></p>
+					</label>
+					<button id="buttonSignIn">SIGN IN</button>
+					<p id="success-sign-in"></p>
+				</form>
+			</fieldset>
+		</div>
+		<div class="grid-item">
+			<p id="signed-up-user" class="data1"></p>
+		</div>
+		<div class="grid-item">
+			<fieldset>
+				<legend>Log in</legend>
+				<form>
+					<label>
+						<input type="text" placeholder="Email" id="log-in-email">
+						<p id="email-error-3"></p>
+					</label>
+					<label>
+						<input type="text" placeholder="Password" id="log-in-password">
+						<p id="password-error-3"></p>
+					</label>
+					<button id="buttonLogIn">LOG IN</button>
+					<p id="success-log-in"></p>
+				</form>
+			</fieldset>
+		</div>
+		<div class="grid-item">
+			4
+		</div>
+		<div class="grid-item">
+			<fieldset>
+				<legend>Add/change information</legend>
+				<form>
+					<input type="text" placeholder="Username">
+					<span></span>
+					<input type="text" placeholder="Surname">
+					<span></span>
+					<input type="text" placeholder="Address">
+					<span></span>
+					<input type="tel" placeholder="+77772223344" pattern="/((\+7|7)+([0-9]){10})$/gm">
+					<span class="validity"></span>
+					<input type="password" placeholder="New password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter">
+					<span></span>
+					<input type="password" placeholder="Password confirm">
+					<span></span><br><br>
+					<input class="button-submit" type="submit" value="SUBMIT">
+				</form>
+			</fieldset>
+		</div>
+		<div class="grid-item">
+			6
+		</div>
+	</div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="index2.js"></script>
+</html>

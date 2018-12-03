@@ -1,0 +1,125 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+div {
+  margin: 1em auto;
+  width: 50%;
+  text-align: center;
+}
+
+#logo-image {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  float:left;
+  clear:left;
+  margin-right: 5px;
+}
+
+h1, h2 {
+  font-family: "Monospace";
+  float: left;
+  clear: left;
+  margin-bottom: 1px;
+}
+
+h4 {
+  float: left;
+  clear:left;
+  margin-top: 0px;
+}
+
+#name{
+  color: #FDEDEC ;
+  float: right;
+  height: 150px;
+  width: 480px;
+  background-color: #CA6F1E;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+p {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  table-layout: fixed;
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+th {
+  height: 40px;
+}
+
+button {
+  border-radius: 5px;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #CA6F1E;
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+
+button:hover {
+  font-size: 18px;
+}
+
+.position {
+  color: #CA6F1E;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.job {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.details {
+  color: #CA6F1E;
+  font-style: italic;
+  font-size: 14px;
+}
+
+ul {
+  background: #CA6F1E;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+li {
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 14px;
+  list-style-type: square;
+  background-color: #FDEDEC;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+.contact-details {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-details:hover {
+  font-size: 20px;
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 5px;
+  border-color: black;
+}
