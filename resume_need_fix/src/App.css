@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-div {
+#main div {
   margin: 1em auto;
   width: 50%;
   text-align: center;
@@ -33,9 +33,24 @@ h4 {
 
 #name{
   color: #FDEDEC ;
-  float: right;
+  flex: 2;
   height: 150px;
-  width: 480px;
+  width: 100%;
+  background-color: #CA6F1E;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#top-image{
+  color: #FDEDEC ;
+  flex: 1;
+}
+
+#top-info{
+  color: #FDEDEC;
+  display: flex;
+  height: 200px;
+  width: 100% !important;
   background-color: #CA6F1E;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
